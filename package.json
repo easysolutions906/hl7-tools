@@ -1,0 +1,22 @@
+{
+  "name": "hl7-tools",
+  "version": "1.0.0",
+  "description": "HL7 v2.x parser, viewer, validator, generator, and FHIR R4 converter — MCP server + REST API",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "hl7-tools": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "PORT=3200 node src/index.js"
+  },
+  "keywords": ["hl7", "fhir", "healthcare", "mcp", "parser"],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "express": "^4.21.2",
+    "stripe": "^17.7.0",
+    "zod": "^3.24.2"
+  }
+}
