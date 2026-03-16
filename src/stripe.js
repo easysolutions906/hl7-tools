@@ -2,8 +2,8 @@
 // Configure STRIPE_SECRET_KEY and STRIPE_WEBHOOK_SECRET in env
 
 const PRICE_IDS = {
-  starter: 'price_placeholder_starter',
-  pro: 'price_placeholder_pro',
+  starter: 'price_1TBdpM2dvwjzjXFJHAqVWUuR',
+  pro: 'price_1TBdpN2dvwjzjXFJLUhXUEJ6',
 };
 
 const createCheckoutSession = async (plan, successUrl, cancelUrl) => {

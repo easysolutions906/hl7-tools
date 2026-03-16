@@ -1,6 +1,6 @@
 {
   "name": "@easysolutions906/hl7-tools",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "HL7 v2.x parser, viewer, validator, generator, and FHIR R4 converter — MCP server + REST API",
   "type": "module",
   "main": "src/index.js",
@@ -24,5 +24,9 @@
     "express": "^4.21.2",
     "stripe": "^17.7.0",
     "zod": "^3.24.2"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/easysolutions906"
   }
 }
